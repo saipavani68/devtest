@@ -189,3 +189,7 @@ textarea::placeholder {
 .bottom-section li a {
     color: white;
 }
+
+.social-media {
+    float: right;
+}
