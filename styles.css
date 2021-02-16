@@ -30,6 +30,8 @@ li a {
 
 .navbar-nav {
     display: inline-block;
+    position: relative;
+    left: 10%;
 }
 
 .navbar-header {
@@ -89,6 +91,10 @@ li a {
     vertical-align: top;
     cursor: pointer;
   }
+
+.pull-right {
+    float: right;
+}
 
 .bio-section-container {
       margin: 100px 100px 100px 70px;
