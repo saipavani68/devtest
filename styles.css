@@ -155,7 +155,6 @@ textarea::placeholder {
 }
 
 .navigation-link ul a{
-    color:white;
     padding: 0px 25px;
     margin: 10px;
     color: #C7C7C9;
@@ -185,4 +184,8 @@ textarea::placeholder {
 
 .line-break {
     padding-right: 30px;
+}
+
+.bottom-section li a {
+    color: white;
 }
