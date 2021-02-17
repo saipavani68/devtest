@@ -35,8 +35,6 @@ li a img {
 
 .navbar-nav {
     display: inline-block;
-    position: relative;
-    left: 10%;
 }
 
 .navbar-header {
@@ -199,10 +197,14 @@ textarea::placeholder {
 
 .bottom-section li a {
     color: white;
+    padding: 0px;
 }
 
 .social-media {
     float: right;
+}
+.social-media li a {
+   margin: 0px;
 }
 
 .carousel {
