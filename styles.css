@@ -49,6 +49,7 @@ li a img {
     top: 0;
     position: fixed;
     background-color: white;
+    z-index: 100;
 }
 
 .navbar-brand {
