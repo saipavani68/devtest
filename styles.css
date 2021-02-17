@@ -32,6 +32,9 @@ li a img {
     vertical-align: bottom;
     padding-right: 5px;
 }
+.container {
+    display: unset;
+}
 
 .navbar-nav {
     display: inline-block;
@@ -42,7 +45,6 @@ li a img {
 
 .navbar-header {
     padding: 0px 100px;
-    width: 85%;
     top: 0;
     position: fixed;
     background-color: white;
@@ -111,7 +113,7 @@ li a img {
 }
 
 @media only screen and (min-width: 1200px) {
-  .bio-section-container  {
+  .bio-section-container, .contact-section  {
       display: flex;
     }
 }
@@ -123,8 +125,7 @@ li a img {
 }
 
 .contact-section {
-      display: flex;
-      margin-left: 40px;
+    margin-left: 40px;
 }
 
 .contact-section-left {
@@ -267,8 +268,14 @@ textarea::placeholder {
   box-shadow: none;
   width: 12px;
 }
+
+@media only screen and (min-width: 1200px) {
+    .carousel .card  {
+        display: inline-flex;
+      }
+  }
+
 .carousel .card {
-  display: inline-flex;
   background: #fff;
   box-shadow: 0 8px 30px -7px #c9dff0;
   margin: 0 20px;
