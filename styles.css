@@ -36,6 +36,9 @@ li a img {
 .navbar-nav {
     display: inline-block;
 }
+.header-nav {
+    margin: 0 6%;
+}
 
 .navbar-header {
     padding: 0px 100px;
@@ -44,7 +47,7 @@ li a img {
 .navbar-brand {
     display: inline-block;
     vertical-align: top;
-    margin: 20px;
+    margin: 28px;
 }
 
 .center-image {
@@ -198,6 +201,7 @@ textarea::placeholder {
 .bottom-section li a {
     color: white;
     padding: 0px;
+    margin: 20px 20px 20px 0px;
 }
 
 .social-media {
