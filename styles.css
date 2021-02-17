@@ -204,7 +204,7 @@ textarea::placeholder {
     float: right;
 }
 .social-media li a {
-   margin: 0px;
+    padding: 0px;
 }
 
 .carousel {
