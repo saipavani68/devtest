@@ -260,6 +260,8 @@ textarea::placeholder {
 
 .social-media {
     float: right;
+    position: absolute;
+    right: 50px;
 }
 .social-media li a {
     padding: 0px;
@@ -367,4 +369,8 @@ textarea::placeholder {
 }
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev, .owl-carousel button.owl-dot {
   outline: 0;
+}
+
+.footer-container {
+  display: inline-flex;
 }
