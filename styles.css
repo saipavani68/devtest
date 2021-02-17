@@ -45,6 +45,7 @@ li a img {
 
 .navbar-header {
     padding: 0px 100px;
+    width: 100%;
     top: 0;
     position: fixed;
     background-color: white;
@@ -103,10 +104,6 @@ li a img {
     vertical-align: top;
     cursor: pointer;
   }
-
-.pull-right {
-    float: right;
-}
 
 .bio-section-container {
     margin: 100px 100px 100px 70px; 
