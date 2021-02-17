@@ -11,7 +11,6 @@ ul {
 
 lh + li {
     margin-top: 10px;
-  
 }
   
 li {
@@ -21,14 +20,17 @@ li {
 li a {
     display: block;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
     color: #001D5D;
     font-weight: 500;
     margin: 20px;
 }
 
-li a img {
+.header-nav a {
+    padding: 0px 20px;
+}
+
+.header-nav a img {
     vertical-align: bottom;
     padding-right: 5px;
 }
@@ -36,15 +38,7 @@ li a img {
     display: unset;
 }
 
-.navbar-nav {
-    display: inline-block;
-}
-.header-nav {
-    margin: 0 6%;
-}
-
 .navbar-header {
-    padding: 0px 100px;
     width: 100%;
     top: 0;
     position: fixed;
@@ -91,6 +85,58 @@ li a img {
 .play-button {
     margin-right: 10px;
 }
+.header-nav {
+    overflow: hidden;
+}
+
+@media only screen and (min-width: 1200px) {
+    .header-nav  {
+        display: inline-block;
+        margin: 10px 70px;
+      }
+  }
+  
+  .header-nav a {
+    float: left;
+    display: block;
+    color: #001D5D;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 10px 20px;
+    padding: 14px 16px;
+  }
+  
+  .header-nav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .header-nav .icon {
+    display: none;
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header-nav a:not(:first-child) {display: none;}
+    .header-nav a.icon {
+      float: right;
+      display: block;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .header-nav.responsive {position: relative;}
+    .header-nav.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .header-nav.responsive a {
+      float: none;
+      display: block !important;
+      text-align: left;
+    }
+  }
 
 .sign-up-button, 
 .learn-more-button,
