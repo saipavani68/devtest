@@ -28,6 +28,11 @@ li a {
     margin: 20px;
 }
 
+li a img {
+    vertical-align: bottom;
+    padding-right: 5px;
+}
+
 .navbar-nav {
     display: inline-block;
     position: relative;
@@ -35,7 +40,7 @@ li a {
 }
 
 .navbar-header {
-    padding: 0px 40px;
+    padding: 0px 100px;
 }
 
 .navbar-brand {
@@ -236,14 +241,14 @@ textarea::placeholder {
   border-radius: 50%;
   display: block;
   background: #fff;
-  border: 2px solid #01b0f8;
+  border: 2px solid #001D5D;;
   margin: 0 5px;
 }
 .carousel .owl-dots .active {
   box-shadow: none;
 }
 .carousel .owl-dots .active span {
-  background: #01b0f8;
+  background: #001D5D;;
   box-shadow: none;
   width: 12px;
 }
@@ -253,7 +258,6 @@ textarea::placeholder {
   box-shadow: 0 8px 30px -7px #c9dff0;
   margin: 0 20px;
   padding: 0 10px;
-  border-radius: 20px;
   border: 0;
 }
 .carousel .card .card-img-top {
@@ -261,17 +265,21 @@ textarea::placeholder {
   height: 120px;
   margin: 60px 20px;
 }
+.card-text {
+    font-size: 15px;
+    line-height: 1.6;
+}
 .carousel .card h5 {
-  color: #01b0f8;
+  color: #001D5D;;
   font-size: 21px;
   line-height: 1.3;
   margin-bottom: 0px;
 }
 .carousel .card h5 span {
-  color: #666666;
+  color: #6FC54A;
 }
 .carousel .card p {
-  color: #555;
+  font-weight: 100;
   padding-bottom: 15px;
 }
 .carousel .active {
