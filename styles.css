@@ -202,7 +202,8 @@ textarea::placeholder {
 
 .carousel {
   position: relative;
-  margin-top: 30px;
+  padding: 50px 0px;
+  background-color: #F6F6F6;
 }
 .carousel-text {
     text-align: center;
@@ -216,7 +217,7 @@ textarea::placeholder {
 .carousel h2 {
   font-size: 30px;
   text-align: center;
-  color: #333333;
+  color: #001D5D;
   margin-bottom: 50px;
 }
 .carousel .owl-stage-outer {
