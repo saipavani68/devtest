@@ -42,6 +42,10 @@ li a img {
 
 .navbar-header {
     padding: 0px 100px;
+    width: 85%;
+    top: 0;
+    position: fixed;
+    background-color: white;
 }
 
 .navbar-brand {
@@ -103,8 +107,13 @@ li a img {
 }
 
 .bio-section-container {
-      margin: 100px 100px 100px 70px;
+    margin: 100px 100px 100px 70px; 
+}
+
+@media only screen and (min-width: 1200px) {
+  .bio-section-container  {
       display: flex;
+    }
 }
 
 .bio-section__content {
